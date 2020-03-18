@@ -19,10 +19,10 @@ print("Some news sources retrieved based on the article you searched for are sho
 
 
 #input your credentials here
-consumer_key = "3XlvwneYeiizWuJx2GxfJM0tn"
-consumer_secret = "8QhxM6xYIHobqZTA9JLlBRbFFZoQIInQlG5JjbSMA5onF4auPm"
-access_token = "2200824096-Lnn8IM0rGgKUw0BaTAk01ITnOp3gv3an5iwgHcM"
-access_token_secret = "g0Dk9NDbtGuvyh2HqYudAauGm5ghWs9bZ62osYqkjv3O4"
+consumer_key = "your_key"
+consumer_secret = "your_key"
+access_token = "your_key"
+access_token_secret = "your_key"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
